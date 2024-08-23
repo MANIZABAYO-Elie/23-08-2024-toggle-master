@@ -37,6 +37,7 @@ h1{
 } 
 #professional{
     background-color: hsl(237, 63%, 64%) ;
+    height: 400px;
 }
 .price-box{
     color:  hsl(0, 0%, 41%);
