@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+.container{
+max-width: 100%;
+
+}
+.price-box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:10px;
+    
+}
+ul li{
+    list-style: none;
+}
+h1{
+    color: hsl(0, 0%, 41%) ;
+}
+.price-box{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0.1);
+    margin:10px;
+    
+} 
+#professional{
+    background-color: hsl(237, 63%, 64%) ;
+}
+.price-box{
+    color:  hsl(0, 0%, 41%);
+    font-size: 2rem;
+    width: 250px;
+    height: fit-content;
+}
